@@ -22,8 +22,21 @@ Separa todo en los siguientes componentes:
 - Keyboard
   - Key
 
-Entrega también un listado de responsabilidades en el README
+## listado de responsabilidades
 
 -Model
 
 Crea un modelo basico
+
+-Hooks
+
+Almacena el Hook para que lo use el resto de la aplicacion
+
+-Context
+
+Aqui tenemos 2 archivos el primer context.ts , este contexto está diseñado para compartir datos y estado entre componentes.
+La segunda almacena las espefificaciones de la primera de manera que quede mas acesible para futuras revisiones.
+
+- Keyboard
+
+  En esta carpeta tenemos 2 archivos, el primer maqueta la seccion de teclas para que la recoja la App, en la segura tenemos las teclas a las que les damos una funcionalidad a traves de el context.
